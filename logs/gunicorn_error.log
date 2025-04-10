@@ -1,0 +1,316 @@
+[2025-04-04 01:24:28 -0500] [97282] [INFO] Starting gunicorn 23.0.0
+[2025-04-04 01:24:28 -0500] [97282] [INFO] Listening at: http://0.0.0.0:8000 (97282)
+[2025-04-04 01:24:28 -0500] [97282] [INFO] Using worker: sync
+[2025-04-04 01:24:28 -0500] [97283] [INFO] Booting worker with pid: 97283
+[2025-04-04 01:24:28 -0500] [97284] [INFO] Booting worker with pid: 97284
+[2025-04-04 11:31:10 -0500] [97282] [INFO] Handling signal: hup
+[2025-04-04 11:31:10 -0500] [97282] [INFO] Hang up: Master
+[2025-04-04 11:31:10 -0500] [97282] [ERROR] Worker (pid:97283) was sent SIGHUP!
+[2025-04-04 11:31:10 -0500] [97282] [ERROR] Worker (pid:97284) was sent SIGHUP!
+[2025-04-04 11:31:10 -0500] [218273] [INFO] Booting worker with pid: 218273
+[2025-04-04 11:31:10 -0500] [97282] [INFO] Handling signal: hup
+[2025-04-04 11:31:10 -0500] [97282] [INFO] Hang up: Master
+[2025-04-04 11:31:10 -0500] [218274] [INFO] Booting worker with pid: 218274
+[2025-04-04 11:31:10 -0500] [218275] [INFO] Booting worker with pid: 218275
+[2025-04-04 11:31:10 -0500] [218276] [INFO] Booting worker with pid: 218276
+[2025-04-04 11:31:10 -0500] [218274] [INFO] Worker exiting (pid: 218274)
+[2025-04-04 11:31:10 -0500] [218273] [INFO] Worker exiting (pid: 218273)
+[2025-04-04 12:39:28 -0500] [232885] [INFO] Starting gunicorn 23.0.0
+[2025-04-04 12:39:28 -0500] [232885] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2025-04-04 12:39:28 -0500] [232885] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2025-04-04 12:39:29 -0500] [232885] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2025-04-04 12:39:29 -0500] [232885] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2025-04-04 12:39:30 -0500] [232885] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2025-04-04 12:39:30 -0500] [232885] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2025-04-04 12:39:31 -0500] [232885] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2025-04-04 12:39:31 -0500] [232885] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2025-04-04 12:39:32 -0500] [232885] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2025-04-04 12:39:32 -0500] [232885] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2025-04-04 12:39:33 -0500] [232885] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2025-04-04 12:42:13 -0500] [218275] [INFO] Worker exiting (pid: 218275)
+[2025-04-04 12:42:13 -0500] [218276] [INFO] Worker exiting (pid: 218276)
+[2025-04-04 12:42:13 -0500] [97282] [INFO] Handling signal: term
+[2025-04-04 12:42:13 -0500] [233847] [INFO] Starting gunicorn 23.0.0
+[2025-04-04 12:42:13 -0500] [233847] [INFO] Listening at: http://0.0.0.0:8000 (233847)
+[2025-04-04 12:42:13 -0500] [233847] [INFO] Using worker: sync
+[2025-04-04 12:42:13 -0500] [233849] [INFO] Booting worker with pid: 233849
+[2025-04-04 12:42:13 -0500] [233850] [INFO] Booting worker with pid: 233850
+[2025-04-04 12:42:13 -0500] [233851] [INFO] Booting worker with pid: 233851
+[2025-04-04 12:42:13 -0500] [97282] [INFO] Shutting down: Master
+[2025-04-04 12:42:13 -0500] [233852] [INFO] Booting worker with pid: 233852
+[2025-04-04 12:44:58 -0500] [234692] [INFO] Starting gunicorn 23.0.0
+[2025-04-04 12:44:58 -0500] [234692] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2025-04-04 12:44:58 -0500] [234692] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2025-04-04 12:44:59 -0500] [234692] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2025-04-04 12:44:59 -0500] [234692] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2025-04-04 12:45:00 -0500] [234692] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2025-04-04 12:45:00 -0500] [234692] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2025-04-04 12:45:01 -0500] [234692] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2025-04-04 12:45:01 -0500] [234692] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2025-04-04 12:45:02 -0500] [234692] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2025-04-04 12:45:02 -0500] [234692] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2025-04-04 12:45:03 -0500] [234692] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2025-04-04 12:46:04 -0500] [233852] [INFO] Worker exiting (pid: 233852)
+[2025-04-04 12:46:04 -0500] [233851] [INFO] Worker exiting (pid: 233851)
+[2025-04-04 12:46:04 -0500] [233849] [INFO] Worker exiting (pid: 233849)
+[2025-04-04 12:46:04 -0500] [233850] [INFO] Worker exiting (pid: 233850)
+[2025-04-04 12:46:04 -0500] [233847] [INFO] Handling signal: term
+[2025-04-04 12:46:04 -0500] [235011] [INFO] Starting gunicorn 23.0.0
+[2025-04-04 12:46:04 -0500] [235011] [INFO] Listening at: http://0.0.0.0:8000 (235011)
+[2025-04-04 12:46:04 -0500] [235011] [INFO] Using worker: sync
+[2025-04-04 12:46:04 -0500] [235013] [INFO] Booting worker with pid: 235013
+[2025-04-04 12:46:04 -0500] [235014] [INFO] Booting worker with pid: 235014
+[2025-04-04 12:46:04 -0500] [233847] [INFO] Shutting down: Master
+[2025-04-04 12:46:05 -0500] [235015] [INFO] Booting worker with pid: 235015
+[2025-04-04 12:46:05 -0500] [235016] [INFO] Booting worker with pid: 235016
+[2025-04-04 12:46:14 -0500] [235011] [INFO] Handling signal: hup
+[2025-04-04 12:46:14 -0500] [235011] [INFO] Hang up: Master
+[2025-04-04 12:46:14 -0500] [235011] [ERROR] Worker (pid:235014) was sent SIGHUP!
+[2025-04-04 12:46:14 -0500] [235011] [ERROR] Worker (pid:235013) was sent SIGHUP!
+[2025-04-04 12:46:14 -0500] [235011] [ERROR] Worker (pid:235015) was sent SIGHUP!
+[2025-04-04 12:46:14 -0500] [235011] [ERROR] Worker (pid:235016) was sent SIGHUP!
+[2025-04-04 12:46:14 -0500] [235045] [INFO] Booting worker with pid: 235045
+[2025-04-04 12:46:14 -0500] [235046] [INFO] Booting worker with pid: 235046
+[2025-04-04 12:46:14 -0500] [235047] [INFO] Booting worker with pid: 235047
+[2025-04-04 12:46:14 -0500] [235048] [INFO] Booting worker with pid: 235048
+[2025-04-04 12:46:39 -0500] [235045] [INFO] Worker exiting (pid: 235045)
+[2025-04-04 12:46:39 -0500] [235046] [INFO] Worker exiting (pid: 235046)
+[2025-04-04 12:46:39 -0500] [235047] [INFO] Worker exiting (pid: 235047)
+[2025-04-04 12:46:39 -0500] [235048] [INFO] Worker exiting (pid: 235048)
+[2025-04-04 12:46:39 -0500] [235011] [INFO] Handling signal: term
+[2025-04-04 12:46:39 -0500] [235011] [ERROR] Worker (pid:235045) was sent SIGTERM!
+[2025-04-04 12:46:39 -0500] [235011] [ERROR] Worker (pid:235048) was sent SIGTERM!
+[2025-04-04 12:46:39 -0500] [235011] [ERROR] Worker (pid:235046) was sent SIGTERM!
+[2025-04-04 12:46:39 -0500] [235011] [INFO] Shutting down: Master
+[2025-04-04 12:47:02 -0500] [235185] [INFO] Starting gunicorn 23.0.0
+[2025-04-04 12:47:02 -0500] [235185] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2025-04-04 12:47:02 -0500] [235185] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2025-04-04 12:47:03 -0500] [235185] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2025-04-04 12:47:03 -0500] [235185] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2025-04-04 12:47:04 -0500] [235185] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2025-04-04 12:47:04 -0500] [235185] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2025-04-04 12:47:05 -0500] [235185] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2025-04-04 12:47:05 -0500] [235185] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2025-04-04 12:47:06 -0500] [235185] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2025-04-04 12:47:06 -0500] [235185] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2025-04-04 12:47:07 -0500] [235185] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2025-04-04 12:49:38 -0500] [235602] [INFO] Starting gunicorn 23.0.0
+[2025-04-04 12:49:38 -0500] [235602] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2025-04-04 12:49:38 -0500] [235602] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2025-04-04 12:49:39 -0500] [235602] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2025-04-04 12:49:39 -0500] [235602] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2025-04-04 12:49:40 -0500] [235602] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2025-04-04 12:49:40 -0500] [235602] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2025-04-04 12:49:41 -0500] [235602] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2025-04-04 12:49:41 -0500] [235602] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2025-04-04 12:49:42 -0500] [235602] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2025-04-04 12:49:42 -0500] [235602] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2025-04-04 12:49:43 -0500] [235602] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2025-04-04 13:22:28 -0500] [241283] [INFO] Starting gunicorn 23.0.0
+[2025-04-04 13:22:28 -0500] [241283] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2025-04-04 13:22:28 -0500] [241283] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2025-04-04 13:22:29 -0500] [241283] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2025-04-04 13:22:29 -0500] [241283] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2025-04-04 13:22:30 -0500] [241283] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2025-04-04 13:22:30 -0500] [241283] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2025-04-04 13:22:31 -0500] [241283] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2025-04-04 13:22:31 -0500] [241283] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2025-04-04 13:22:32 -0500] [241283] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2025-04-04 13:22:32 -0500] [241283] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2025-04-04 13:22:33 -0500] [241283] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2025-04-04 13:28:39 -0500] [242374] [INFO] Starting gunicorn 23.0.0
+[2025-04-04 13:28:39 -0500] [242374] [INFO] Listening at: http://0.0.0.0:8000 (242374)
+[2025-04-04 13:28:39 -0500] [242374] [INFO] Using worker: sync
+[2025-04-04 13:28:39 -0500] [242375] [INFO] Booting worker with pid: 242375
+[2025-04-04 13:28:39 -0500] [242375] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/aaron/Documents/O1/o1_nextgen/venv/lib/python3.12/site-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+    worker.init_process()
+  File "/home/aaron/Documents/O1/o1_nextgen/venv/lib/python3.12/site-packages/gunicorn/workers/base.py", line 135, in init_process
+    self.load_wsgi()
+  File "/home/aaron/Documents/O1/o1_nextgen/venv/lib/python3.12/site-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+    self.wsgi = self.app.wsgi()
+                ^^^^^^^^^^^^^^^
+  File "/home/aaron/Documents/O1/o1_nextgen/venv/lib/python3.12/site-packages/gunicorn/app/base.py", line 66, in wsgi
+    self.callable = self.load()
+                    ^^^^^^^^^^^
+  File "/home/aaron/Documents/O1/o1_nextgen/venv/lib/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 57, in load
+    return self.load_wsgiapp()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/aaron/Documents/O1/o1_nextgen/venv/lib/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+    return util.import_app(self.app_uri)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aaron/Documents/O1/o1_nextgen/venv/lib/python3.12/site-packages/gunicorn/util.py", line 370, in import_app
+    mod = importlib.import_module(module)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/aaron/Documents/O1/o1_nextgen/website/__init__.py", line 6, in <module>
+    app.register_blueprint(status_routes)
+  File "/home/aaron/Documents/O1/o1_nextgen/venv/lib/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aaron/Documents/O1/o1_nextgen/venv/lib/python3.12/site-packages/flask/sansio/app.py", line 595, in register_blueprint
+    blueprint.register(self, options)
+    ^^^^^^^^^^^^^^^^^^
+AttributeError: module 'website.routes.status_routes' has no attribute 'register'
+[2025-04-04 13:28:39 -0500] [242375] [INFO] Worker exiting (pid: 242375)
+[2025-04-04 13:28:39 -0500] [242376] [INFO] Booting worker with pid: 242376
+[2025-04-04 13:28:39 -0500] [242374] [ERROR] Worker (pid:242375) exited with code 3
+[2025-04-04 13:28:39 -0500] [242376] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/aaron/Documents/O1/o1_nextgen/venv/lib/python3.12/site-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+    worker.init_process()
+  File "/home/aaron/Documents/O1/o1_nextgen/venv/lib/python3.12/site-packages/gunicorn/workers/base.py", line 135, in init_process
+    self.load_wsgi()
+  File "/home/aaron/Documents/O1/o1_nextgen/venv/lib/python3.12/site-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+    self.wsgi = self.app.wsgi()
+                ^^^^^^^^^^^^^^^
+  File "/home/aaron/Documents/O1/o1_nextgen/venv/lib/python3.12/site-packages/gunicorn/app/base.py", line 66, in wsgi
+    self.callable = self.load()
+                    ^^^^^^^^^^^
+  File "/home/aaron/Documents/O1/o1_nextgen/venv/lib/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 57, in load
+    return self.load_wsgiapp()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/aaron/Documents/O1/o1_nextgen/venv/lib/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+    return util.import_app(self.app_uri)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aaron/Documents/O1/o1_nextgen/venv/lib/python3.12/site-packages/gunicorn/util.py", line 370, in import_app
+    mod = importlib.import_module(module)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/aaron/Documents/O1/o1_nextgen/website/__init__.py", line 6, in <module>
+    app.register_blueprint(status_routes)
+  File "/home/aaron/Documents/O1/o1_nextgen/venv/lib/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aaron/Documents/O1/o1_nextgen/venv/lib/python3.12/site-packages/flask/sansio/app.py", line 595, in register_blueprint
+    blueprint.register(self, options)
+    ^^^^^^^^^^^^^^^^^^
+AttributeError: module 'website.routes.status_routes' has no attribute 'register'
+[2025-04-04 13:28:39 -0500] [242376] [INFO] Worker exiting (pid: 242376)
+[2025-04-04 13:28:39 -0500] [242374] [ERROR] Worker (pid:242376) exited with code 3
+[2025-04-04 13:30:52 -0500] [242763] [INFO] Starting gunicorn 23.0.0
+[2025-04-04 13:30:52 -0500] [242763] [INFO] Listening at: http://0.0.0.0:8000 (242763)
+[2025-04-04 13:30:52 -0500] [242763] [INFO] Using worker: sync
+[2025-04-04 13:30:52 -0500] [242764] [INFO] Booting worker with pid: 242764
+[2025-04-04 13:30:52 -0500] [242765] [INFO] Booting worker with pid: 242765
+[2025-04-04 13:30:52 -0500] [242764] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/aaron/Documents/O1/o1_nextgen/venv/lib/python3.12/site-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+    worker.init_process()
+  File "/home/aaron/Documents/O1/o1_nextgen/venv/lib/python3.12/site-packages/gunicorn/workers/base.py", line 135, in init_process
+    self.load_wsgi()
+  File "/home/aaron/Documents/O1/o1_nextgen/venv/lib/python3.12/site-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+    self.wsgi = self.app.wsgi()
+                ^^^^^^^^^^^^^^^
+  File "/home/aaron/Documents/O1/o1_nextgen/venv/lib/python3.12/site-packages/gunicorn/app/base.py", line 66, in wsgi
+    self.callable = self.load()
+                    ^^^^^^^^^^^
+  File "/home/aaron/Documents/O1/o1_nextgen/venv/lib/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 57, in load
+    return self.load_wsgiapp()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/aaron/Documents/O1/o1_nextgen/venv/lib/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+    return util.import_app(self.app_uri)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aaron/Documents/O1/o1_nextgen/venv/lib/python3.12/site-packages/gunicorn/util.py", line 370, in import_app
+    mod = importlib.import_module(module)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/aaron/Documents/O1/o1_nextgen/website/__init__.py", line 6, in <module>
+    app.register_blueprint(status_routes)
+  File "/home/aaron/Documents/O1/o1_nextgen/venv/lib/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aaron/Documents/O1/o1_nextgen/venv/lib/python3.12/site-packages/flask/sansio/app.py", line 595, in register_blueprint
+    blueprint.register(self, options)
+    ^^^^^^^^^^^^^^^^^^
+AttributeError: module 'website.routes.status_routes' has no attribute 'register'
+[2025-04-04 13:30:52 -0500] [242764] [INFO] Worker exiting (pid: 242764)
+[2025-04-04 13:30:52 -0500] [242763] [ERROR] Worker (pid:242764) exited with code 3
+[2025-04-04 13:30:52 -0500] [242765] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/aaron/Documents/O1/o1_nextgen/venv/lib/python3.12/site-packages/gunicorn/arbiter.py", line 608, in spawn_worker
+    worker.init_process()
+  File "/home/aaron/Documents/O1/o1_nextgen/venv/lib/python3.12/site-packages/gunicorn/workers/base.py", line 135, in init_process
+    self.load_wsgi()
+  File "/home/aaron/Documents/O1/o1_nextgen/venv/lib/python3.12/site-packages/gunicorn/workers/base.py", line 147, in load_wsgi
+    self.wsgi = self.app.wsgi()
+                ^^^^^^^^^^^^^^^
+  File "/home/aaron/Documents/O1/o1_nextgen/venv/lib/python3.12/site-packages/gunicorn/app/base.py", line 66, in wsgi
+    self.callable = self.load()
+                    ^^^^^^^^^^^
+  File "/home/aaron/Documents/O1/o1_nextgen/venv/lib/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 57, in load
+    return self.load_wsgiapp()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/aaron/Documents/O1/o1_nextgen/venv/lib/python3.12/site-packages/gunicorn/app/wsgiapp.py", line 47, in load_wsgiapp
+    return util.import_app(self.app_uri)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aaron/Documents/O1/o1_nextgen/venv/lib/python3.12/site-packages/gunicorn/util.py", line 370, in import_app
+    mod = importlib.import_module(module)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/aaron/Documents/O1/o1_nextgen/website/__init__.py", line 6, in <module>
+    app.register_blueprint(status_routes)
+  File "/home/aaron/Documents/O1/o1_nextgen/venv/lib/python3.12/site-packages/flask/sansio/scaffold.py", line 47, in wrapper_func
+    return f(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aaron/Documents/O1/o1_nextgen/venv/lib/python3.12/site-packages/flask/sansio/app.py", line 595, in register_blueprint
+    blueprint.register(self, options)
+    ^^^^^^^^^^^^^^^^^^
+AttributeError: module 'website.routes.status_routes' has no attribute 'register'
+[2025-04-04 13:30:52 -0500] [242765] [INFO] Worker exiting (pid: 242765)
+[2025-04-04 13:30:52 -0500] [242763] [ERROR] Worker (pid:242765) exited with code 3
+[2025-04-04 13:32:16 -0500] [242816] [INFO] Starting gunicorn 23.0.0
+[2025-04-04 13:32:16 -0500] [242816] [INFO] Listening at: http://0.0.0.0:8000 (242816)
+[2025-04-04 13:32:16 -0500] [242816] [INFO] Using worker: sync
+[2025-04-04 13:32:16 -0500] [242817] [INFO] Booting worker with pid: 242817
+[2025-04-04 13:32:16 -0500] [242818] [INFO] Booting worker with pid: 242818
+[2025-04-04 13:34:06 -0500] [243103] [INFO] Starting gunicorn 23.0.0
+[2025-04-04 13:34:06 -0500] [243103] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2025-04-04 13:34:06 -0500] [243103] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2025-04-04 13:34:07 -0500] [243103] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2025-04-04 13:34:07 -0500] [243103] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2025-04-04 13:34:08 -0500] [243103] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2025-04-04 13:34:08 -0500] [243103] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2025-04-04 13:34:09 -0500] [243103] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2025-04-04 13:34:09 -0500] [243103] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2025-04-04 13:34:10 -0500] [243103] [ERROR] Connection in use: ('0.0.0.0', 8000)
+[2025-04-04 13:34:10 -0500] [243103] [ERROR] connection to ('0.0.0.0', 8000) failed: [Errno 98] Address already in use
+[2025-04-04 13:34:11 -0500] [243103] [ERROR] Can't connect to ('0.0.0.0', 8000)
+[2025-04-04 13:48:36 -0500] [242818] [INFO] Worker exiting (pid: 242818)
+[2025-04-04 13:48:36 -0500] [242817] [INFO] Worker exiting (pid: 242817)
+[2025-04-04 13:48:36 -0500] [242816] [INFO] Handling signal: term
+[2025-04-04 13:48:36 -0500] [242816] [ERROR] Worker (pid:242818) was sent SIGTERM!
+[2025-04-04 13:48:36 -0500] [242816] [INFO] Shutting down: Master

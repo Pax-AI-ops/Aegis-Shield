@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us | Omega AI</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Contact & Lead Intake</h1>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/about">About</a>
+            <a href="/projects">Projects</a>
+        </nav>
+    </header>
+    <main>
+        <form method="POST" action="/submit-lead">
+            <label for="name">Name:</label>
+            <input type="text" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea name="message" rows="5" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+        <p>We’ll get back to you as soon as possible. For direct inquiries, email: <a href="mailto:contact@syntexsecurity.com">contact@syntexsecurity.com</a></p>
+    </main>
+    <footer>
+        <p>&copy; 2025 SYNTEX LLC</p>
+    </footer>
+</body>
+</html>

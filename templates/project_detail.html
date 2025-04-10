@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ project_title }} | Omega AI</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>{{ project_title }}</h1>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/projects">All Projects</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <p>{{ project_description }}</p>
+            {% if download_link %}
+                <p><a href="{{ download_link }}" class="download-btn">Download</a></p>
+            {% endif %}
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 SYNTEX LLC</p>
+    </footer>
+</body>
+</html>

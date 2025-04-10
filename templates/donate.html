@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Donate | Omega AI</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Support Our Mission</h1>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/about">About</a>
+            <a href="/upgrade">Upgrade</a>
+        </nav>
+    </header>
+    <main>
+        <p>We're building the future of ethical cybersecurity.</p>
+        <p>Your donation helps us fund development and fight for real democratic AI.</p>
+        <p>Note: While we plan to implement a phantom stock-style reward in the future, we are not currently offering investment instruments. Transparency updates will be posted regularly.</p>
+        <form>
+            <label for="amount">Donation Amount (USD):</label>
+            <input type="number" id="amount" name="amount" min="1" required>
+            <button type="submit">Donate</button>
+        </form>
+    </main>
+    <footer>
+        <p>Contact: contact@syntexsecurity.com</p>
+    </footer>
+</body>
+</html>
+
